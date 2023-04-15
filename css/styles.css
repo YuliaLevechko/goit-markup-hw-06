@@ -703,10 +703,10 @@ background-color: var(--white-bgc-header-teamcard-color);
         height: 8px;
         fill: var(--navy-blue-dark-shadows-headings-color);
 }
-.modal-close-btn:active {
+.modal-close-btn:hover, .modal-close-btn:focus {
         background-color: var(--ocean-bgc-hover-focus-active-color);
 }
-.modal-close-btn:focus-within .modal-close {
+.modal-close-btn:focus-within, .modal-close-btn:hover .modal-close {
         fill: var(--white-bgc-header-teamcard-color);
 }
 .is-hidden{
@@ -761,6 +761,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         font-size: 14px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        background-color: var(--dairy-modal-color);
         color: var(--navy-blue-dark-shadows-headings-color);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -787,6 +788,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--navy-blue-dark-shadows-headings-color);
+        background-color: var(--dairy-modal-color);
         resize: none;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
